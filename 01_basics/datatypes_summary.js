@@ -33,13 +33,36 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello World!")
+    // console.log("Hello World!")
 }
 myFunction()
 
-console.log(typeof myFunction) //function object
-console.log(typeof heros)
+// console.log(typeof myFunction) //function object
+// console.log(typeof heros)
 
+// ========================================
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let myYoutubename = "suyashchaudharydotcom"
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+
+// console.log(anothername)
+// console.log(myYoutubename)
+
+
+let user1 = {
+    userEmail : "abc.gmail.com",
+    upi :"123@ybl"
+}
+
+let user2 = user1;  //reference 
+
+user2.userEmail  = "def.gmail.com"
+// console.log(user1.userEmail)
+// console.log(user2.userEmail)
 
 
 
