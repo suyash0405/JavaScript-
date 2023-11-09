@@ -21,21 +21,22 @@
 </body>
 
 <script>
-    // Approach :- 1
+    // Approach :-  1   less features
     // document.getElementById('owl').onclick = function(){
     // alert("owl clicked")
     // }
 
 
-    // Approach :- 2
+    // Approach :- 2.  more features like propogation
     document.getElementById('owl').addEventListener('click',function(e){
         // alert("OWL Clicked again!!")
         console.log(e)
 
     },false) //false default
 
-    //jquery - on
-    //types,defaultPrevented,timestamp
+    //jQuery - on
+    //=====environment=====
+    //types,preventedDefault,timestamp
     //target,srcElement,toElement
     //clientX,clinetY, screenX,screenY
     //altkey, ctrlkey,shiftkey,keycode
@@ -51,7 +52,7 @@
 
     // },false) 
 
-
+      
     // document.getElementById('owl').addEventListener('click',function(e){
     //     console.log("OWL clicked")
     //     e.stopPropagation()
